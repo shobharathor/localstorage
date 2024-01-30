@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4f4e4e;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 5px 5px #c3c1c1;
+    border-radius: 0.625rem;
+}
+
+main textarea{
+    padding: 0.3rem;
+}
